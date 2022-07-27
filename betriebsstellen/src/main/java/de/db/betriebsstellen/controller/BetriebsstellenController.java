@@ -12,7 +12,7 @@ import de.db.betriebsstellen.helper.CSVHelper;
 import de.db.betriebsstellen.message.ResponseMessage;
 import de.db.betriebsstellen.model.Betriebsstelle;
 
-//@CrossOrigin(origins = "https://localhost:8081")
+@CrossOrigin(origins = "https://localhost:8100")
 @Controller
 @RequestMapping("/db")
 public class BetriebsstellenController {
